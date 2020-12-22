@@ -11,7 +11,7 @@
 	// adding http ($base) seems to slow it down crazy.... BUT means flexible between local and production..
 	$base = str_replace('clean.php',"",$_SERVER['PHP_SELF']);
 	
-	$version = 'v2';
+	$version = 'v3';
 	?>
 <head>
 	<title><?php 
