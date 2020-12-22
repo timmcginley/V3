@@ -1,0 +1,58 @@
+[{
+		"name": "course",
+		"test": "C",
+		"data": "data/courses.json",
+		"schema": "data/courses_schema.json"
+	},
+	{
+		"name": "target",
+		"test": "T",
+		"data": "data/target.json",
+		"schema": "data/target_schema.json"
+	},
+	{
+		"name": "element",
+		"test": "E",
+		"data": "data/element.json",
+		"schema": "data/element_schema.json"
+	},
+	{
+		"name": "zero",
+		"test": "Z",
+		"inc": "includes/zero.php",
+		"data": "data/zero.json",
+		"schema": "data/zero_schema.json"
+	},
+	{
+		"name": "design",
+		"test": "D",
+		"data": "data/design.json",
+		"schema": "data/design_schema.json"
+	},
+	{
+		"name": "bimUseCase",
+		"test": "U",
+		"inc": "includes/bimUseCase.php",
+		"data": "data/bimusecase.json",
+		"schema": "data/bimusecase_schema.json"
+	},
+	{
+		"name": "system",
+		"test": "S",
+		"inc": "includes/system.php",
+		"data": "data/system.json",
+		"schema": "data/system_schema.json"
+	},
+
+
+	{
+		"name": "beats",
+		"test": "b",
+		"inc": "includes/beats.php",
+		"data": "data/beats.json",
+		"schema": "data/beats_schema.json",
+		"schema_in": "data/beats_schema_in.json",
+		"schema_out": "data/beats_schema_out.json"
+	}
+
+]

@@ -1,0 +1,233 @@
+[{
+		"name": "numflrs",
+		"desc": "this is the number of floors",
+		"element": "floor",
+		"value": 1
+	},
+	{
+		"name": "numusrs",
+		"desc": "this is the number of USERS",
+		"element": "use",
+		"value": 1
+	},
+	{
+		"name": "gfa",
+		"desc": "this is the area of the floors",
+		"unit": "m2",
+		"element": "floor",
+		"value": 1
+	},
+	{
+		"name": "f2c",
+		"desc": "this is the internal height of the spaces",
+		"unit": "m",
+		"value": 2
+	},
+	{
+		"name": "bldtype",
+		"desc": "this is the number of floors",
+		"element": "use"
+	},
+	{
+		"name": "platform(s)",
+		"description": "Building site - or construction platform - geometry",
+		"element": "site",
+
+		"width": 3,
+		"length": 3,
+
+		"unit": "m"
+	},
+	{
+		"name": "primary_use",
+		"description": "Primary use of the building",
+		"element": "use",
+		"value": "storage",
+		"unit": ""
+	},
+	{
+		"name": "global_location",
+		"description": "Geograpfical location of the building",
+		"element": "site",
+		"value": "storage",
+		"unit": ""
+	},
+	{
+		"name": "functions",
+		"description": "Functions supported by the building, including",
+		"element": "use",
+		"value": "storage",
+		"area": 10,
+		"unit": "m2"
+	},
+	{
+		"name": "building_envelope",
+		"description": "Geometrical description of the building envelope",
+		"element": "envelope",
+		"value": "box",
+		"unit": ""
+	},
+	{
+		"name": "primary_colors",
+		"description": "Primary colors used on building envelope",
+		"element": "envelope",
+		"value": "black",
+		"unit": ""
+	},
+	{
+		"name": "climate",
+		"description": "Type of climate on buildings location",
+		"element": "site",
+		"value": "cold",
+		"unit": ""
+	},
+	{
+		"name": "view_directions",
+		"description": "Directions with views",
+		"element": "glazing",
+		"value": 270,
+
+		"unit": "degrees_from_north_clockwise"
+	},
+	{
+		"name": "shaded_directions",
+		"description": "Directions with shading elements",
+		"element": "glazing",
+		"value": 100,
+		"unit": "degrees_from_north_clockwise"
+	},
+	{
+		"name": "district_heating_access_point",
+		"description": "District heating supply to the building connects at this point",
+		"element": "site",
+
+		"latitude": 12.57324,
+		"longitude": 55.68423,
+
+		"unit": "decimal_degrees"
+	},
+	{
+		"name": "sewage_access_point",
+		"description": "Sewage connects at this point",
+		"element": "site",
+
+		"latitude": 12.57322,
+		"longitude": 55.68433,
+
+		"unit": "decimal_degrees"
+	},
+	{
+		"name": "egress_route_length",
+		"description": "Maximal allowable length on egress routes",
+		"element": "regulations",
+		"value": 25,
+		"unit": "m"
+	},
+	{
+		"name": "max_building_height",
+		"description": "Maximal allowable height of the building",
+		"element": "regulations",
+		"value": 45,
+		"unit": "m"
+	},
+	{
+		"name": "main_structural_material",
+		"description": "Main structural material",
+		"element": "structure",
+		"value": "conrete",
+		"unit": ""
+	},
+	{
+		"name": "main_exterior_material",
+		"description": "Main exterior surface material",
+		"element": "envelope",
+		"value": "aluminum",
+		"unit": ""
+	},
+	{
+		"name": "main_interior_material",
+		"description": "Main interior cladding material",
+		"element": "interior",
+		"value": "gypsum",
+		"unit": ""
+	},
+	{
+		"name": "main_insulation_material",
+		"description": "Main insulating material",
+		"element": "envelope",
+		"value": "rigid_insulation",
+		"unit": ""
+	},
+	{
+		"name": "architectural_budget",
+		"description": "Building budget for architecture discipline",
+		"element": "cost",
+		"value": 1600,
+		"unit": "DKK"
+	},
+	{
+		"name": "structural_budget",
+		"description": "Building budget for different disciplines",
+		"element": "cost",
+		"value": 1000,
+		"unit": "DKK"
+	},
+	{
+		"name": "foundation_type",
+		"description": "Foundation type",
+		"element": "foundation",
+		"value": "mat_foundation",
+		"unit": ""
+	},
+	{
+		"name": "beam_spans",
+		"description": "Maximum and minimum allowabel span of beams",
+		"element": "structure",
+
+		"max": 10,
+		"min": 3,
+		"unit": ""
+	},
+	{
+		"name": "structural_system",
+		"description": "Structural system type",
+		"element": "structure",
+		"value": "rigid_frame",
+		"unit": ""
+	},
+	{
+		"name": "structural_system",
+		"description": "Structural system type",
+		"element": "structure",
+		"value": "rigid_frame",
+		"unit": ""
+	},
+	{
+		"name": "wind_velocity",
+		"description": "Maximum wind velocity on site",
+		"element": "site",
+		"value": 24,
+		"unit": "m/s"
+	},
+	{
+		"name": "snow_depth",
+		"description": "Maximum snow depth on site",
+		"element": "site",
+		"value": 1,
+		"unit": "m"
+	},
+	{
+		"name": "excavation_depth",
+		"description": "Maximum allowable depth of excavation",
+		"element": "foundation",
+		"value": 10,
+		"unit": "m"
+	},
+	{
+		"name": "floor_to_ceiling",
+		"description": "Height from floor to ceiling",
+		"element": "interior",
+		"value": 3.1,
+		"unit": "m"
+	}
+]

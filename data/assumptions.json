@@ -1,0 +1,135 @@
+[{
+		"name": "site_boundary",
+		"description": "Brep of the building site boundary",
+		"element": "site",
+		"value": "Brep",
+		"unit": ""
+	},
+	{
+		"name": "building proximity to site edge",
+		"description": "Offset from site boundary, representing building footprint",
+		"element": "site",
+		"enum":"MIN_ALLOWABLE,MAX_POSSIBLE,NA",
+		"default": "MIN_ALLOWABLE",
+		"unit": "m"
+	},
+	{
+		"name": "max_height",
+		"description": "Maximum allowable building height",
+		"element": "regulations",
+		"value": "22",
+		"unit": "m"
+	},
+	{
+		"name": "f2f_height",
+		"description": "Floor to floor height in the building",
+		"element": "space",
+		"value": "4",
+		"unit": "m"
+	},
+	{
+		"name": "Function1",
+		"description": "Supported function in the building",
+		"element": "space",
+		"value": "Office",
+		"unit": ""
+	},
+	{
+		"name": "Office",
+		"description": "The dedicated floor area to a specific building function",
+		"element": "space",
+		"value": "10",
+		"unit": "m2"
+	},
+	{
+		"name": "Toiltet_Office_(example)",
+		"description": "A connectivity relationship between toilets and offices, every space does not need this relationship defined, default is arbitrary connectivity",
+		"element": "connectivity",
+		"value": "Separate - Adjacent",
+		"unit": ""
+	},
+	{
+		"name": "degree_of_alignment",
+		"description": "A value describing how aligned the structural system is with the zone config.",
+		"element": "structure",
+		"value": "Aligned - Not aligned",
+		"unit": ""
+	},
+	{
+		"name": "degree_of_regularity",
+		"description": "A value describing how regular the structural system is",
+		"element": "structure",
+		"value": "Regular - Irregular",
+		"unit": ""
+	},
+	{
+		"name": "max_span",
+		"description": "The maximum allowable span for beams and slabs",
+		"element": "structure",
+		"value": "6",
+		"unit": "m"
+	},
+	{
+		"name": "structural_material",
+		"description": "Main  structural material",
+		"element": "material",
+		"value": "Concrete - Steel - Timber",
+		"unit": ""
+	},
+	{
+		"name": "Extraordinary_load",
+		"description": "A load that cannot be inferred from typology, or location",
+		"element": "structure",
+		"value": "Heavy_traffic - Technical_installation",
+		"unit": ""
+	},
+	{
+		"name": "Slab_span",
+		"description": "Describing the load transfering slab type",
+		"element": "structure",
+		"value": "One way - Two way",
+		"unit": ""
+	},
+	{
+		"name": "Beam_supports",
+		"description": "Type of support for the beams in the structural system",
+		"element": "structure",
+		"value": "Pin - Roller - Rigid",
+		"unit": ""
+	},
+	{
+		"name": "Office_population",
+		"description": "The number of users in offices",
+		"element": "indoor_climate",
+		"value": "40",
+		"unit": ""
+	},
+	{
+		"name": "Office_daylight",
+		"description": "Need for daylight in office spaces",
+		"element": "indoor_climate",
+		"value": "500",
+		"unit": "lux"
+	},
+	{
+		"name": "illuminance_south",
+		"description": "Availiable illuminance on the south facing facade elements",
+		"element": "facade",
+		"value": "10000",
+		"unit": "lux"
+	},
+	{
+		"name": "Solar_radiation_south",
+		"description": "Available solar radiation on the south facing facade elements",
+		"element": "facade",
+		"value": "1000",
+		"unit": "kW/m2"
+	},
+	{
+		"name": "max_solar_heat_gain",
+		"description": "Allowable solar heat gains",
+		"element": "space",
+		"value": "10",
+		"unit": "kW"
+	}
+]

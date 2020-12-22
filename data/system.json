@@ -1,0 +1,111 @@
+[
+	{
+		"name": "Design (BIO)",
+		"ABV":"BIO",
+		"stream_id":"Jz_GRQJVg",
+		"desc":"Contains external walls, internal walls and floor plans",
+		"segment": "design"
+	},
+	{
+		"name": "Exterior Walls",
+		"ABV":"FXW",
+		"stream_id":"cjVWKizgIE",
+		"desc":"system 1 from Design Facade",
+		"segment": "design"
+	},
+	{
+		"name": "Facade (Voronoi)",
+		"ABV":"FVO",
+		"stream_id":"lnEvvEOfQ6",
+		"usecase":"prescribe",
+		"desc":" need to define this.",
+		"segment": "design"
+	},
+	{
+		"name": "Facade (Arabesque)",
+		"ABV":"FAR",
+		"usecase":"prescribe",
+		"stream_id":"47gfEHTtdu",
+		"desc":" need to define this.",
+		"segment": "design"
+	},
+
+	{
+		"name": "Design (Solar)",
+		"ABV":"SOL",
+		"usecase":"prescribe",
+		"stream_id":"3ijVojxHr",
+		"desc":" need to define this.",
+		"segment": "design"
+	},
+	{
+		"name": "Material-steel",
+		"ABV":"MAT",
+		"usecase":"prescribe",
+		"stream_id":"sJip5UxMp",
+		"desc":"Includes material assumptions for different elements( in progress)",
+		"segment": "material"
+	},
+	
+	{
+		"name": "Material-timber",
+		"ABV":"MAT",
+		"usecase":"prescribe",
+		"stream_id":"lFVRU3aFd",
+		"desc":"Includes material assumptions for different elements( in progress)",
+		"segment": "material"
+	},
+	{
+		"name": "Material-concrete",
+		"ABV":"MAT",
+		"usecase":"prescribe",
+		"stream_id":"ilSiALdLAL",
+		"desc":"Includes material assumptions for different elements( in progress)",
+		"segment": "material"
+	},
+	{
+		"name": "Lorenzo input",
+		"ABV":"LIN",
+		"usecase":"capture",
+		"stream_id":"Fsx4XkouO",
+		"desc":" need to define this.",
+		"segment": "material"
+	},
+	
+	{
+		"name": "Lorenzo output",
+		"ABV":"LOU",
+		"usecase":"forecast",
+		"stream_id":"_1kZIyhdn",
+		"desc":" need to define this.",
+		"segment": "material"
+	},
+	{
+		"name": "Ignacio",
+		"ABV":"IGS",
+		
+		"stream_id":"OvoA8ia1e",
+		"desc":" Structural Connection grouping",
+		"segment": "Design"
+	},
+	
+	{
+		"name": "Build (Cost)",
+		"ABV":"COST",
+		"stream_id":"8_iCEgDiDD",
+		"desc":" need to define this.",
+		"segment": "build"
+
+		
+	},
+	{
+		"name": "Build (Time)",
+		"ABV":"TIME",
+		"stream_id":"IJGfRidh_9",
+		"desc":" need to define this.",
+		"segment": "build"
+
+		
+	}
+
+]

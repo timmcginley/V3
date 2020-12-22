@@ -1,0 +1,321 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "array",
+    "title": "The Root Schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "additionalItems": true,
+    "items": {
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+            {
+                "shaft_area": "8.3",
+                "cars_provided": "",
+                "segments": [
+                    {
+                        "name": "body",
+                        "f2f": 4.0,
+                        "flrs": 20.0,
+                        "order": "body",
+                        "gfa": 1000.0,
+                        "id": "0"
+                    }
+                ],
+                "target": "310",
+                "min_off_hgt": "2.5",
+                "course": "11080",
+                "perm_sing_off": "",
+                "year": "2020",
+                "footprint": "",
+                "perm_open_off": "",
+                "min_off_wid": "3.0",
+                "team": "1",
+                "name": "team 1",
+                "cars_required": "400"
+            },
+            {
+                "min_off_wid": "2.0",
+                "team": "2",
+                "name": "team 2",
+                "cars_required": "221",
+                "shaft_area": "50",
+                "cars_provided": "",
+                "segments": [
+                    {
+                        "name": "body",
+                        "f2f": "4.5",
+                        "flrs": "17",
+                        "order": "body",
+                        "gfa": "1150",
+                        "id": "0"
+                    }
+                ],
+                "target": "310",
+                "min_off_hgt": "3.5",
+                "course": "11080",
+                "perm_sing_off": "120",
+                "footprint": "1200",
+                "year": "2020",
+                "perm_open_off": "350"
+            },
+            {
+                "min_off_wid": "",
+                "team": "3",
+                "name": "Team 3",
+                "cars_required": "",
+                "shaft_area": "",
+                "cars_provided": "",
+                "segments": [
+                    {
+                        "gfa": "",
+                        "id": "0",
+                        "name": "",
+                        "f2f": "",
+                        "flrs": "",
+                        "order": ""
+                    }
+                ],
+                "target": "310",
+                "min_off_hgt": "",
+                "course": "11080",
+                "perm_sing_off": "",
+                "footprint": "",
+                "year": "2020",
+                "perm_open_off": ""
+            }
+        ],
+        "additionalProperties": true,
+        "required": [
+            "min_off_hgt",
+            "min_off_wid",
+            "footprint",
+            "shaft_area",
+            "cars_required",
+            "cars_provided",
+            "perm_sing_off",
+            "perm_open_off"
+        ],
+        "properties": {
+            "name": {
+                "type": "string",
+                "title": "The Name Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "team 1"
+                ]
+            },
+            "course": {
+                "type": "string",
+                "title": "The Course Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "11080"
+                ]
+            },
+            "target": {
+                "type": "string",
+                "title": "The Target Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "310"
+                ]
+            },
+            "year": {
+                "type": "string",
+                "title": "The Year Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "2020"
+                ]
+            },
+            "team": {
+                "type": "string",
+                "title": "The Team Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "1"
+                ]
+            },
+            "segments": {
+                "type": "array",
+                "title": "The Segments Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": [],
+                "examples": [
+                    [
+                        {
+                            "id": "0",
+                            "name": "body",
+                            "f2f": 4.0,
+                            "flrs": 20.0,
+                            "order": "body",
+                            "gfa": 1000.0
+                        }
+                    ]
+                ],
+                "additionalItems": true,
+                "items": {
+                    "type": "object",
+                    "title": "The Items Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": {},
+                    "examples": [
+                        {
+                            "gfa": 1000.0,
+                            "id": "0",
+                            "name": "body",
+                            "f2f": 4.0,
+                            "flrs": 20.0,
+                            "order": "body"
+                        }
+                    ],
+                    "additionalProperties": true,
+                    "required": [
+                        "id",
+                        "order",
+                        "name",
+                        "flrs",
+                        "gfa",
+                        "f2f"
+                    ],
+                    "properties": {
+                        "id": {
+                            "type": "string",
+                            "title": "The Id Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "0"
+                            ]
+                        },
+                        "order": {
+                            "type": "string",
+                            "title": "The Order Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "body"
+                            ]
+                        },
+                        "name": {
+                            "type": "string",
+                            "title": "The Name Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "body"
+                            ]
+                        },
+                        "flrs": {
+                            "type": "integer",
+                            "title": "The Flrs Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": 0,
+                            "examples": [
+                                20.0
+                            ]
+                        },
+                        "gfa": {
+                            "type": "integer",
+                            "title": "The Gfa Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": 0,
+                            "examples": [
+                                1000.0
+                            ]
+                        },
+                        "f2f": {
+                            "type": "integer",
+                            "title": "The F2f Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": 0,
+                            "examples": [
+                                4.0
+                            ]
+                        }
+                    }
+                }
+            },
+            "min_off_hgt": {
+                "type": "string",
+                "title": "The Min_off_hgt Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "2.5"
+                ]
+            },
+            "min_off_wid": {
+                "type": "string",
+                "title": "The Min_off_wid Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "3.0"
+                ]
+            },
+            "footprint": {
+                "type": "string",
+                "title": "The Footprint Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    ""
+                ]
+            },
+            "shaft_area": {
+                "type": "string",
+                "title": "The Shaft_area Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "8.3"
+                ]
+            },
+            "cars_required": {
+                "type": "string",
+                "title": "The Cars_required Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "400"
+                ]
+            },
+            "cars_provided": {
+                "type": "string",
+                "title": "The Cars_provided Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    ""
+                ]
+            },
+            "perm_sing_off": {
+                "type": "string",
+                "title": "The Perm_sing_off Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    ""
+                ]
+            },
+            "perm_open_off": {
+                "type": "string",
+                "title": "The Perm_open_off Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    ""
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,345 @@
+[{
+		"name": "Team 1",
+		"people": "Victor and Alex",
+		"course": "11080",
+		"target": "310",
+		"year": "2020",
+		"team": "1",
+		"segments": [
+
+			{
+				"id": "1",
+				"order": "body",
+				"name": "body",
+				"flrs": 22,
+				"gfa": 1000,
+				"f2f": 3.6
+			}
+		],
+		"basement_flrs": 4,
+		"min_off_hgt": "2.5",
+		"min_off_wid": "3.0",
+		"footprint": "",
+		"shaft_area": "8.3",
+		"cars_required": "400",
+		"cars_provided": "",
+		"perm_sing_off": "",
+		"perm_open_off": ""
+	}, {
+		"name": "Team 2",
+		"people": "Hannah and Anastasia",
+		"course": "11080",
+		"target": "310",
+		"year": "2020",
+		"team": "2",
+		"segments": [{
+				"id": "0",
+				"order": "body",
+				"name": "MEP and observatory",
+				"flrs": "1",
+				"gfa": "833",
+				"f2f": 3.5
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "skybar",
+				"flrs": "1",
+				"gfa": "977",
+				"f2f": 5
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Office floor",
+				"flrs": "11",
+				"gfa": "977",
+				"f2f": 4.0
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Gym and MEP",
+				"flrs": "1",
+				"gfa": "977",
+				"f2f": 3.5
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Office floor",
+				"flrs": "1",
+				"gfa": "1417",
+				"f2f": 4
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Meeting rooms",
+				"flrs": "1",
+				"gfa": "1417",
+				"f2f": 4
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Study area",
+				"flrs": "1",
+				"gfa": "1417",
+				"f2f": 4.5
+			},
+			{
+				"id": "0",
+				"order": "base",
+				"name": "Canteen, auditorium and study area",
+				"flrs": "1",
+				"gfa": "977",
+				"f2f": 4.5
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Ground floor - Entrance",
+				"flrs": "1",
+				"gfa": "1417",
+				"f2f": 6
+			}
+		],
+		"min_off_hgt": "3.5",
+		"min_off_wid": "2.0",
+		"footprint": "1353",
+		"shaft_area": "50",
+		"cars_required": "221",
+		"cars_provided": "362",
+		"perm_sing_off": "120",
+		"perm_sing_off_only": "528",
+		"perm_open_off": "350"
+	}, {
+		"name": "Team 3",
+		"people": "Sara and Josep",
+		"course": "11080",
+		"target": "310",
+		"year": "2020",
+		"team": "3",
+		"basement_flrs": 4,
+		"basement_f2f": "1@6.25,3@4.25",
+		"segments": [{
+			"id": "0",
+			"order": "0",
+			"name": "body",
+			"flrs": "18",
+			"gfa": "1180",
+			"f2f": "4.25"
+		}],
+		"min_off_hgt": "3.75",
+		"min_off_wid": "3.75",
+		"footprint": "1209",
+		"shaft_area": "25",
+		"cars_required": "",
+		"cars_provided": "600",
+		"perm_sing_off": "205",
+		"perm_open_off": "415"
+	}, {
+		"name": "Team 4",
+		"people": "Zoe and Bas",
+		"course": "11080",
+		"target": "310",
+		"year": "2020",
+		"team": "4",
+		"segments": [{
+				"id": "0",
+				"order": "body",
+				"name": "Skybar/Observatory",
+				"flrs": "1",
+				"gfa": "1121",
+				"f2f": "4"
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Office",
+				"flrs": "5",
+				"gfa": "1121",
+				"f2f": "4"
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "MEP",
+				"flrs": "1",
+				"gfa": "1121",
+				"f2f": "4"
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Office",
+				"flrs": "4",
+				"gfa": "1121",
+				"f2f": "4"
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Meeting / Office",
+				"flrs": "1",
+				"gfa": "1121",
+				"f2f": "4"
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Meeting",
+				"flrs": "2",
+				"gfa": "1121",
+				"f2f": "4"
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Office",
+				"flrs": "1",
+				"gfa": "1114",
+				"f2f": "4"
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Gym",
+				"flrs": "1",
+				"gfa": "1129",
+				"f2f": "4"
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Cafe/Gym",
+				"flrs": "1",
+				"gfa": "1143",
+				"f2f": "4"
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Restaurant",
+				"flrs": "1",
+				"gfa": "1226",
+				"f2f": "4"
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "Ground floor (GFA not inc. atrium)",
+				"flrs": "1",
+				"gfa": "1226",
+				"f2f": "4"
+			}
+		],
+		"min_off_hgt": "3.5",
+		"min_off_wid": "",
+		"footprint": "1500",
+		"shaft_area": "12",
+		"cars_required": "440",
+		"cars_provided": "",
+		"perm_sing_off": "",
+		"perm_open_off": ""
+	}, {
+		"name": "Team 5",
+		"people": "Jan and Diego",
+		"course": "11080",
+		"target": "310",
+		"year": "2020",
+		"team": "5",
+		"segments": [{
+				"id": "0",
+				"order": "body",
+				"name": "MEP",
+				"flrs": "1",
+				"gfa": "1020",
+				"f2f": "3.9"
+			}, {
+				"id": "0",
+				"order": "body",
+				"name": "body",
+				"flrs": "16",
+				"gfa": "1020",
+				"f2f": "3.9"
+			},
+
+			{
+				"id": "0",
+				"order": "base",
+				"name": "base",
+				"flrs": "3",
+				"gfa": "1500",
+				"f2f": "3.9"
+			}
+		],
+		"min_off_hgt": "3.0",
+		"min_off_wid": "3.6",
+		"footprint": "1630",
+		"shaft_area": "40",
+		"cars_required": "234",
+		"cars_provided": "",
+		"perm_sing_off": "",
+		"perm_open_off": "78"
+	}, {
+		"name": "Team 6",
+		"people": "BT and James",
+		"course": "11080",
+		"target": "310",
+		"year": "2020",
+		"team": "6",
+		"segments": [{
+				"id": "0",
+				"order": "body",
+				"name": "upper",
+				"flrs": 10,
+				"gfa": 992,
+				"f2f": 3.5
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "canteen",
+				"flrs": 1,
+				"gfa": 992,
+				"f2f": 4.0
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "body",
+				"flrs": 6,
+				"gfa": 992,
+				"f2f": 3.5
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "body",
+				"flrs": 3,
+				"gfa": 992,
+				"f2f": 4.0
+			},
+			{
+				"id": "0",
+				"order": "body",
+				"name": "ground floor",
+				"flrs": 1,
+				"gfa": 992,
+				"f2f": 5.0
+			}
+		],
+		"min_off_hgt": "3.0",
+		"min_off_wid": "2.5",
+		"footprint": "1120",
+		"shaft_area": "138",
+		"cars_required": "360",
+		"cars_provided": "",
+		"perm_sing_off": "",
+		"perm_open_off": "112"
+	}
+
+
+]

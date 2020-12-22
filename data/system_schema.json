@@ -1,0 +1,109 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The Root Schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "additionalItems": true,
+    "items": {
+        "$id": "#/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+            {
+                "name": "TARGET",
+                "ABV": "TAR",
+                "segment": "target",
+                "desc": " need to define this."
+            },
+            {
+                "segment": "design",
+                "desc": " need to define this.",
+                "name": "DESIGN (BIO)",
+                "ABV": "BIO"
+            },
+            {
+                "ABV": "FAC",
+                "segment": "design",
+                "desc": " need to define this.",
+                "name": "DESIGN FACADE"
+            },
+            {
+                "segment": "design",
+                "desc": " need to define this.",
+                "name": "DESIGN SOLAR",
+                "ABV": "SOL"
+            },
+            {
+                "name": "MATERIAL",
+                "ABV": "MAT",
+                "segment": "material",
+                "desc": " need to define this."
+            },
+            {
+                "name": "BUILD 1 (COST)",
+                "ABV": "COST",
+                "segment": "build",
+                "desc": " need to define this."
+            },
+            {
+                "segment": "build",
+                "desc": " need to define this.",
+                "name": "BUILD 2 (TIME)",
+                "ABV": "TIME"
+            }
+        ],
+        "additionalProperties": true,
+        "required": [
+            "name",
+            "ABV",
+            "desc",
+            "segment"
+        ],
+        "properties": {
+            "name": {
+                "$id": "#/items/properties/name",
+                "type": "string",
+                "title": "The Name Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "TARGET"
+                ]
+            },
+            "ABV": {
+                "$id": "#/items/properties/ABV",
+                "type": "string",
+                "title": "The Abv Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "TAR"
+                ]
+            },
+            "desc": {
+                "$id": "#/items/properties/desc",
+                "type": "string",
+                "title": "The Desc Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    " need to define this."
+                ]
+            },
+            "segment": {
+                "$id": "#/items/properties/segment",
+                "type": "string",
+                "title": "The Segment Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "target"
+                ]
+            }
+        }
+    }
+}

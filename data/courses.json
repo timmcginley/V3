@@ -1,0 +1,77 @@
+[
+
+	{
+		"name": "Engineering Work",
+		"course_code": "11000",
+		"level": "BSc",
+		"ECTS": "10",
+		"schedule": "E3B",
+		"schedule2": "E5"
+	},
+	{
+		"name": "Building Information Modeling (BIM)",
+		"course_code": "11031",
+		"level": "BSc",
+		"ECTS": "5",
+		"schedule": "F3A"
+	},
+	{
+		"name": "Agile Building Design",
+		"course_code": "1337",
+		"level": "MSc",
+		"ECTS": "5",
+		"schedule": "F3B"
+	},
+	{
+		"name": "Advanced Building Information Modeling (BIM)",
+		"course_code": "11034",
+		"level": "MSc",
+		"ECTS": "5",
+		"schedule": "E2A"
+	},
+	{
+		"name": "Advanced BIM for Architectural Engineering",
+		"course_code": "11035",
+		"level": "BEng",
+		"ECTS": "5",
+		"schedule": "E5B"
+	},
+	{
+		"name": "Advanced Building Design",
+		"course_code": "11080",
+		"level": "MSc",
+		"ECTS": "10",
+		"schedule": "F2A",
+		"schedule2": "Jan"
+	},
+	{
+		"name": "Master's Thesis",
+		"course_code": "thesis",
+		"level": "MSc",
+		"ECTS": "30/35",
+		"schedule": "F/E"
+	},
+	{
+		"name": "BIM and visual communication",
+		"course_code": "11951",
+		"level": "BEng",
+		"ECTS": "5",
+		"schedule": "E5A"
+	},
+	{
+		"name": "Building Information Modeling (BIM)",
+		"course_code": "11952",
+		"level": "BEng",
+		"ECTS": "5",
+		"schedule": "F3A"
+	},
+	{
+		"name": "Ingeneering work",
+		"course_code": "11990",
+		"level": "BEng",
+		"ECTS": "10",
+		"schedule": "E5",
+		"schedule2": "Jan"
+	}
+
+]

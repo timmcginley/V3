@@ -1,0 +1,119 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The Root Schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "additionalItems": true,
+    "items": {
+        "$id": "#/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+            {
+                "aim": "to represent or preserve the current status of the facility and facility elements.",
+                "desc": "BIM is often used to capture geometric and attribute data about a facility. This can be done using a number of methods and at a number of points during the life of a facility: the elements of the site prior to the development of a new facility or the conditions of an existing facility prior to renovation. Data could be captured using a laser scanner or recorded manually by inputting model and serial numbers into a spreadsheet. The common factor within this purposes of BIM Uses is that data is captured where no data existed prior. However, it is not newly generated information, rather creating a record of the facility elements that exists.",
+                "name": "Capture",
+                "synonyms": [
+                    "collect"
+                ],
+                "major": "Gather"
+            },
+            {
+                "aim": "to express or measure the amount of a facility element.",
+                "desc": "In this purpose of BIM Uses, BIM is used for counting or collecting the amount of specific facility elements. This purpose is often used as part of the estimating and cost forecasting process. During the design phase of a facility, quantities maybe be defined broadly, represented by a range and subject to change. In the construction phase, quantities become more certain and in the operations phase, quantities of elements can be readily calculated, say for instance. For example, the area of carpet to be replaced or the vacant space which is available and rentable, the exact area and dimensions should be known.",
+                "name": "Quantify",
+                "synonyms": [
+                    "quantity takeoff"
+                ],
+                "major": "Gather"
+            },
+            {
+                "name": "Monitor",
+                "synonyms": [
+                    "observe",
+                    "measure"
+                ],
+                "major": "Gather",
+                "aim": "to collect information regarding the performance of facility elements and systems.",
+                "desc": "BIM can be used to monitor real-time performance data of facility elements and facility activities. This purpose of BIM Uses includes those domain uses in which BIM is implemented to understand the performance of particular facility elements or processes. For example, during the operations phase of a facility, BIM can be used to monitor the temperature of a space. It is in this purpose of BIM Uses where Building Automation System data is integrated with the BIM data. Or in construction, BIM could be used to monitor the productivity of a construction process. It is in this purpose of BIM Uses that dynamic real-time data is collected to support decision making."
+            }
+        ],
+        "additionalProperties": true,
+        "required": [
+            "name",
+            "major",
+            "aim",
+            "desc",
+            "synonyms"
+        ],
+        "properties": {
+            "name": {
+                "$id": "#/items/properties/name",
+                "type": "string",
+                "title": "The Name Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "Capture"
+                ]
+            },
+            "major": {
+                "$id": "#/items/properties/major",
+                "type": "string",
+                "title": "The Major Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "Gather"
+                ]
+            },
+            "aim": {
+                "$id": "#/items/properties/aim",
+                "type": "string",
+                "title": "The Aim Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "to represent or preserve the current status of the facility and facility elements."
+                ]
+            },
+            "desc": {
+                "$id": "#/items/properties/desc",
+                "type": "string",
+                "title": "The Desc Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "BIM is often used to capture geometric and attribute data about a facility. This can be done using a number of methods and at a number of points during the life of a facility: the elements of the site prior to the development of a new facility or the conditions of an existing facility prior to renovation. Data could be captured using a laser scanner or recorded manually by inputting model and serial numbers into a spreadsheet. The common factor within this purposes of BIM Uses is that data is captured where no data existed prior. However, it is not newly generated information, rather creating a record of the facility elements that exists."
+                ]
+            },
+            "synonyms": {
+                "$id": "#/items/properties/synonyms",
+                "type": "array",
+                "title": "The Synonyms Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": [],
+                "examples": [
+                    [
+                        "collect"
+                    ]
+                ],
+                "additionalItems": true,
+                "items": {
+                    "$id": "#/items/properties/synonyms/items",
+                    "type": "string",
+                    "title": "The Items Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "collect"
+                    ]
+                }
+            }
+        }
+    }
+}

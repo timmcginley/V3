@@ -1,0 +1,21 @@
+[{
+		"name": "first design",
+		"target":"310",
+		"autosave":"",
+		"GUID": "58702861-0f70-4bbd-aebf-1df158d4043f"
+	},
+	{
+		"name": "SECOND design",
+		"target":"PROX",
+		"course":"1337",
+		"autosave":"",
+		"GUID": "58702861-0f70-4bbd-aebf-1df158d4043f"
+	},
+	{
+		"name": "THIRD design",
+		"target":"",
+		"autosave":"",
+		"GUID": "58702861-0f70-4bbd-aebf-1df158d4043f"
+	}
+
+]

@@ -1,0 +1,102 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "array",
+    "title": "The Root Schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "additionalItems": true,
+    "items": {
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+            {
+                "course_code": "11000",
+                "schedule": "E3B",
+                "ECTS": "10",
+                "name": "Engineering Work",
+                "schedule2": "E5",
+                "level": "BSc"
+            },
+            {
+                "name": "Building Information Modeling (BIM)",
+                "course_code": "11031",
+                "level": "BSc",
+                "schedule": "F3A",
+                "ECTS": "5"
+            },
+            {
+                "course_code": "1337",
+                "level": "MSc",
+                "schedule": "F3B",
+                "ECTS": "5",
+                "name": "Agile Building Design"
+            }
+        ],
+        "additionalProperties": true,
+        "required": [
+            "name",
+            "course_code",
+            "level",
+            "ECTS",
+            "schedule"
+        ],
+        "properties": {
+            "name": {
+                "type": "string",
+                "title": "The Name Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "Engineering Work"
+                ]
+            },
+            "course_code": {
+                "type": "string",
+                "title": "The Course_code Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "11000"
+                ]
+            },
+            "level": {
+                "type": "string",
+                "title": "The Level Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "BSc"
+                ]
+            },
+            "ECTS": {
+                "type": "string",
+                "title": "The Ects Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "10"
+                ]
+            },
+            "schedule": {
+                "type": "string",
+                "title": "The Schedule Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "E3B"
+                ]
+            },
+            "schedule2": {
+                "type": "string",
+                "title": "The Schedule2 Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "E5"
+                ]
+            }
+        }
+    }
+}

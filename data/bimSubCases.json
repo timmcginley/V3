@@ -1,0 +1,130 @@
+[{
+		"name": "Capture",
+		"major": "Gather",
+		"aim": "to represent or preserve the current status of the facility and facility elements.",
+		"desc": "BIM is often used to capture geometric and attribute data about a facility. This can be done using a number of methods and at a number of points during the life of a facility: the elements of the site prior to the development of a new facility or the conditions of an existing facility prior to renovation. Data could be captured using a laser scanner or recorded manually by inputting model and serial numbers into a spreadsheet. The common factor within this purposes of BIM Uses is that data is captured where no data existed prior. However, it is not newly generated information, rather creating a record of the facility elements that exists.",
+		"synonyms": ["collect"]
+	},
+	{
+		"name": "Quantify",
+		"major": "Gather",
+		"aim": "to express or measure the amount of a facility element.",
+		"desc": "In this purpose of BIM Uses, BIM is used for counting or collecting the amount of specific facility elements. This purpose is often used as part of the estimating and cost forecasting process. During the design phase of a facility, quantities maybe be defined broadly, represented by a range and subject to change. In the construction phase, quantities become more certain and in the operations phase, quantities of elements can be readily calculated, say for instance. For example, the area of carpet to be replaced or the vacant space which is available and rentable, the exact area and dimensions should be known.",
+		"synonyms": ["quantity takeoff"]
+	},
+	{
+		"name": "Monitor",
+		"major": "Gather",
+		"aim": "to collect information regarding the performance of facility elements and systems.",
+		"desc": "BIM can be used to monitor real-time performance data of facility elements and facility activities. This purpose of BIM Uses includes those domain uses in which BIM is implemented to understand the performance of particular facility elements or processes. For example, during the operations phase of a facility, BIM can be used to monitor the temperature of a space. It is in this purpose of BIM Uses where Building Automation System data is integrated with the BIM data. Or in construction, BIM could be used to monitor the productivity of a construction process. It is in this purpose of BIM Uses that dynamic real-time data is collected to support decision making.",
+		"synonyms": ["observe", "measure"]
+	},
+	{
+		"name": "Qualify",
+		"major": "Gather",
+		"aim": "to characterize or identify facility elements’ status.",
+		"desc": "For this BIM Use Purpose, the status of a facility element is tracked. This includes information such as: does this element exist within the facility? How is it working? This BIM Use Purpose tracks facility elements over time. For example, in design, what is the element’s level of development? In construction, has the element been fabricated? Is it installed? Is it damaged? During operations, this BIM Use Purpose can collect warranty information on the element and whether or not the element is reaching the end of its useful life.",
+		"synonyms": ["follow", "track", "identify"]
+	},
+	{
+		"name": "Prescribe",
+		"major": "Generate",
+		"aim": "to determine the need for and select specific facility elements.",
+		"desc": "The prescribing purpose of BIM Uses is used when a generator determines there is a need for a specific facility element. The programmer or architect of the facility may prescribe the need for certain rooms or spaces in the facility. While the mechanical engineer may prescribe the need for a specific HVAC system. The contractor could determine the need for a temporary construction element such as a tower crane, and the operator of the facility may prescribe a specific replacement part for the facility. The element prescribed depends on a number of factors such as phase, discipline, and level of development.",
+		"synonyms": ["program", "specify"]
+	},
+	{
+		"name": "Arrange",
+		"major": "Generate",
+		"aim": "to determine location and placement of facility elements.",
+		"desc": "The arranging purpose of BIM Uses includes those Uses in which a location or configuration of a facility element is determined. During the planning phase of a facility's life, this could be the arrangement or adjacency of specific spaces within a proposed facility. During the design phase, it could be the general location of fire protection piping. While in the construction phase, it could include the placement of the hangers that support that piping. This could also be used during the operations phase to determine the placement of furniture systems. In general terms, any time a geometric location of element is determine, it is being arranged.",
+		"synonyms": ["configure", "lay out", "locate", "place"]
+	},
+	{
+		"name": "Size",
+		"major": "Generate",
+		"aim": "to determine the magnitude and scale of facility elements.",
+		"desc": "The sizing purpose of BIM Uses is in use when the magnitude of a facility element is determined. Some of those elements during design could include the dimensions of spaces, the shape of a steel beam, or the size of ductwork. During construction, it could include the size of a crane or the thickness of duct insulation. Additionally, during operations, facility managers record the size of replacement parts or modifications to the facility.",
+		"synonyms": ["scale", "engineer"]
+	},
+	{
+		"name": "Coordinate",
+		"major": "Analyse",
+		"aim": "to ensure the efficiency and harmony of the relationship of facility elements.",
+		"desc": "The coordinating purpose of BIM Uses include those uses where facility elements are analyzed to ensure their relationship to other elements is effective and in harmony. This purpose of BIM Uses is often called clash detection, collision avoidance, design coordination, and interference management, among others. Ultimately, all of the facility elements should work in conjunction with one another. This can include coordinating design intent of various systems during design, coordinating fabrication and installation during construction or coordinating existing operations while renovations are underway. Overall this purpose of BIM uses ensures that the facility will fit together as it is planned and that all the various systems have been considered.",
+		"synonyms": ["detect", "avoid"]
+	},
+	{
+		"name": "Forecast",
+		"major": "Analyse",
+		"aim": "to predict the future performance of the facility and facility elements.",
+		"desc": "This purpose of BIM Uses is one of the largest and has the most variance in its application from element to element. Within this purpose of BIM Uses, detail analysis is conducted to predict future performance of the facility and facility elements. Some of the primary performance factors that should be considered include financial, energy, flow, scenario, and temporal. Financial forecasting includes cost estimation of first cost of construction as well as the life cycle cost of a facility. Energy forecasting predicts how future energy consumption and flow forecasting predicts performance such as air flow or occupant/crowd circulation. Scenario forecasting predicts performance of the facility during emergencies, such as fire, flood, evacuation, and others. Temporal forecasting predicts the performance of the facility over time to include building degradation and the timing for element replacement. Together this purpose of BIM Uses examines multiple facility variables predicts facility performance.",
+		"synonyms": ["simulate", "predict"]
+	},
+	{
+		"name": "Validate",
+		"major": "Analyse",
+		"aim": "to check or prove accuracy of facility information and that is logical and reasonable.",
+		"desc": "This purpose of BIM Uses is implemented to validate facility information. This includes purpose checking facility information for accuracy to ensure that it is logical and reasonable. The validating BIM Uses fall into three primary areas: prescription, functionality, and compliance validation. Prescription validation ensures that facility has the elements that were specified and programmed within the facility including the primary element of facility spaces or rooms. The purpose of functionality validation is to ensure that the facility is constructible, maintainable, and usable. Will the facility perform the purpose for which it has been designed? Compliance validation confirms a facility's compliance with codes and standards to include building codes, ADA standards, sustainability standards and others. Anytime facility information that was developed in another process is checked for accuracy, it falls into the category of validating.",
+		"synonyms": ["check", "confirm"]
+	},
+	{
+		"name": "Visualize",
+		"major": "Communicate",
+		"aim": "to form a realistic representation of a facility or facility elements.",
+		"desc": "As part of the communication purpose of BIM Uses, using BIM to better visualize a facility is very powerful. It is especially powerful for those who have not been trained within the design and construction industry but are critical stakeholders and decision makers. The visualization purpose of BIM Uses include those BIM Uses which are implemented to form a representation of the facility or facility elements. Often this visualization can be very realistic and detailed in nature. Visualization is often used to support decision making about the facility's design or construction as well as support marketing efforts. It can include walkthroughs, renderings, and schedule visualizations. The fact that the visualization is a byproduct of other BIM processes improves the ability of individuals to share facility information in a more effective manner with much additional effort. ",
+		"synonyms": ["review"]
+	},
+	{
+		"name": "Transform",
+		"major": "Communicate",
+		"aim": "to modify information and translate it to be received by another process ",
+		"desc": "Often within the BIM process, facility information needs to be taken from one form to another so that it can be received and used by another process. This translation or transformation of data allows for interoperability between different systems. It also allows legacy data to be used by current infrastructure. Some examples include developing spooling information, developing layout data, and developing industry standard formats. Often this translated data is in manner in which it is not human interoperable, but readable by machine.",
+		"synonyms": ["translate"]
+	},
+	{
+		"name": "Draw ",
+		"major": "Communicate",
+		"aim": "to make a symbolic representation of the facility and facility elements",
+		"desc": "While it might be possible to one day rid the industry of drawings and paper, this is not the case today. With that said, BIM improves the ability to develop drawings including detailing and annotating them. These are developed in a parametric method rather static methods. For example, when the BIM model is updated, the corresponding drawings and sheets are also updated. Anytime a symbolic representation is developed from an intelligent model, it is considered a drawing. This includes isometric, one line diagrams, figures and all other symbolic representations. ",
+		"synonyms": ["draft", "annotate", "detail"]
+	},
+	{
+		"name": "Document",
+		"major": "Communicate",
+		"aim": "to create a record of facility information including the information necessary to precisely specify facility elements",
+		"desc": "Often times it is necessary to record facility data in a written narrative or tabular format. The document purpose of BIM Uses includes uses in which a record of facility data is created. This includes those Uses necessary to precisely specify facility elements. The output of this BIM Use often includes specifications, submittals, design schedules, and other reporting of facility data.",
+		"synonyms": ["specify", "submit", "schedule", "report "]
+	},
+	{
+		"name": "Fabricate",
+		"major": "Realize",
+		"aim": "to use facility information to manufacture the elements of a facility",
+		"desc": "BIM is allowing the industry to develop facility elements that were not possible prior to detail product modeling. The fabricate purpose of BIM Uses include those Uses in which facility information is directly used to manufacture elements of the facility. For example, facility information can be used to directly fabricate structural steel shapes from a CNC Machine or directly fabricate ductwork or cut piping. Within the design phase, BIM can be used to quickly generate prototypes of future facility elements, while in operations it could be used to quickly fabricate replacement parts.",
+		"synonyms": ["manufacture"]
+	},
+	{
+		"name": "Assemble",
+		"major": "Realize",
+		"aim": "to use facility information to bring together the separate elements of a facility",
+		"desc": "The assembling purpose of BIM Uses include those uses where facility information is made available to bring together the separate elements of a facility. While still somewhat of a manual process, the precision that BIM allows, ensures that different systems can be prefabricated. It even gives the ability to fit together systems that were traditionally very separate. Some common example include curtain wall systems, energy/MEP cores, and restrooms.",
+		"synonyms": ["prefabricate"]
+	},
+	{
+		"name": "Control",
+		"major": "Realize",
+		"aim": "to use facility information to physically manipulate the operation of executing equipment",
+		"desc": "BIM affords the ability to use facility information to control equipment operations. The controlling purpose of BIM Uses include those Uses in which facility information is used to physically manipulate the operation of executing equipment. Some common examples include using facility information to lay-out future work within a facility such as the location of walls or the future placement of imbeds in composite decks. Another example is using facility information to control executing equipment: determining stakeout area using GPS systems which is tied to excavating equipment. It is the ability to control executing equipment that could one day lead to the automated construction site.",
+		"synonyms": ["manipulate"]
+	},
+	{
+		"name": "Regulate",
+		"major": "Realize",
+		"aim": "to use facility information to inform the operation of a facility element",
+		"desc": "The use of BIM to regulate facility elements potentially allows facility operators to optimize their operations. The regulating purpose of BIM uses include those in which facility information is used to inform the operation of a facility element. A common example of this is when information gathered from a temperature monitor (or thermostat) is used to alter the output of the HVAC system. A critical component of the process is that the data is tied to intelligent monitoring systems and the building information model. This allows the systems to make informed decisions based on the entire system. It is this purpose of BIM Uses which could eventually lead to fully automated operations of a facility.",
+		"synonyms": ["direct"]
+	}
+
+
+
+]

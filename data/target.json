@@ -1,0 +1,34 @@
+[{
+		"name": "Solar Decathalon",
+		"id": "0",
+		"ABV": "SOLAR",
+		"desc": "really exciting project link <a href='https://sde21.eu/'>here</a>",
+		"location": "Wuppertal, Germany"
+	},
+	{
+		"name": "Proximity",
+		"id": "1",
+		"ABV": "PROX",
+		"desc": "really exciting project link <a href='https://uni.xyz/competitions/proximity-island/info/about?utm_medium=website&utm_source=archdaily.com'>here</a>",
+		"location": "Italy"
+
+	},
+	{
+		"name": "North Sea University",
+		"id": "3",
+		"ABV": "UNIC",
+		"desc": "really exciting project <p><img width=100% src='http://agilex.io/F20/reqs/1337/config/img/target.png'>",
+		"location": "North Sea"
+
+	},
+	{
+		"name": "310",
+		"id": "4",
+		"ABV": "310",
+		"desc": "This project is pretty awesome...",
+		"location": "DTU Lyngby"
+
+	}
+
+
+]
