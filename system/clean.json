@@ -37,7 +37,7 @@
 		"schema": "data/bimusecase_schema.json"
 	},
 	{
-		"name": "system",
+		"name": "TOOL",
 		"test": "S",
 		"inc": "includes/system.php",
 		"data": "data/system.json",
